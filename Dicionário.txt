@@ -12,6 +12,7 @@ B(0)- Número de nascimentos
 TLR - Taxa Líquida de Reprodução
 TEM - Taxa Específica de Mortalidade (TEM)
 k   - Declínio absoluto na taxa de mortalidade
+TIC - Taxa intrínseca de crescimento
 
 Ergodicidade: Afirma que no longo prazo a estrutura etária de uma população
 depende do comportamento da sua mortalidade e fecundidade (e eventualmente migração) e que
