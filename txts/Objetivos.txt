@@ -1,0 +1,17 @@
+1 -
+
+2 - 
+Obter a População Estável Equivalente para cada população escolhida (PEE Grécia, togo, ...)
+
+Para tal, calcular a taxa intrínseca de crescimento, usando a equação fundamental de Lotka (livro cap 22.1.11, pg 816)
+
+Interpretar os resultados, Comentar sobre os parâmetros de fecundidade e mortalidade, sobre a comprimento médio das gerações (T), a taxa intrínseca de crescimento (TIC). 
+Comparar a TIC com a taxa de crescimento natural da população observada (diferença entre taxa bruta de natalidade e taxa bruta de mortalidade).
+Comentar sobre a inércia demográfica (Population momentum).
+
+3 -
+Escolher duas populações entre as cinco, com a maior diferença nas estruturas etárias. 
+Considerando população fechada, faça a projeção dessas populações para 100 anos, considerando leis de mortalidade e fecundidade constantes. 
+Comente os resultados à luz do princípio de ergodicidade. 
+Para visualizar a convergência das estruturas etárias iniciais à estrutura etária estável, proponha gráficos dinâmicos.
+
