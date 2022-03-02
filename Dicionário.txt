@@ -1,0 +1,18 @@
+nQx - Estimação das probabilidades de morte
+nPx - Probabilidade média das pessoas no grupo x a x+n sobreviver por mais n anos
+nLx - Tempo a ser vivido pelos sobreviventes da coorte na idade x, entre esta idade e o início do próximo grupo etário. É o n de pessoas-ano entre as idades x e x+n
+nFx - Taxas Específicas de Fecundidade
+nMx - Taxas Específicas de Mortalidade
+T   - Comprimento médio da geração
+TLR - A razão entre o tamanho da geração atual e a anterior.
+r   - número de nascimentos cresce a uma taxa constante r
+TBN - Taxa Bruta da Natalidade
+TBM - Taxa Bruta de Mortalidade
+B(0)- Número de nascimentos
+TLR - Taxa Líquida de Reprodução
+TEM - Taxa Específica de Mortalidade (TEM)
+k   - Declínio absoluto na taxa de mortalidade
+
+Ergodicidade: Afirma que no longo prazo a estrutura etária de uma população
+depende do comportamento da sua mortalidade e fecundidade (e eventualmente migração) e que
+a estrutura etária inicial será “esquecida”. 
