@@ -4,6 +4,5 @@ Grupo/matrícula:
  - Bruno Gondim - 15/0167636
  - Bruno Soares - 
  - Emilly - 
- - Otávio - 
  - Milena Gonçalves - 
 
