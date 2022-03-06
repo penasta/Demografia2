@@ -1,7 +1,7 @@
 nQx - Estimação das probabilidades de morte
 nPx - Probabilidade média das pessoas no grupo x a x+n sobreviver por mais n anos
 nLx - Tempo a ser vivido pelos sobreviventes da coorte na idade x, entre esta idade e o início do próximo grupo etário. É o n de pessoas-ano entre as idades x e x+n
-nFx - Taxas Específicas de Fecundidade
+nFx - Taxas específicas de fecundidade - representam o número médio de nascimentos das mulheres em cada grupo de idade do período reprodutivo.
 nMx - Taxas Específicas de Mortalidade
 T   - Comprimento médio da geração
 TLR - A razão entre o tamanho da geração atual e a anterior.
