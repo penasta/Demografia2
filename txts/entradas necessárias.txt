@@ -1,0 +1,9 @@
+Tabua de vida
+grécia [] equador [] togo [] pará [] pernambuco []
+
+Tabuas de fecundidade
+grécia [X] equador [X] togo [X] pará [] pernambuco []
+
+Distribuição etária
+grécia [X] equador [X] togo [X] pará [X] pernambuco [X]
+
