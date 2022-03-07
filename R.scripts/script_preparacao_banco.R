@@ -63,3 +63,11 @@ populacao$`95-99`<- populacao$`95-99`*1000
 populacao$`100+`<- populacao$`100+`*1000
 
 saveRDS(populacao, file = "Bancos/populacao.rds")
+
+# togo 1-15
+# equador 16-30
+# gre 31-45
+
+popeq <- populacao[c(16:30),]
+popgr <- populacao[c(31:45),]
+popto <- populacao[c(1:15),]
