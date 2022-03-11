@@ -1,0 +1,17 @@
+ Mortalidade - Brasil
+Óbitos p/Ocorrênc por Unidade da Federação e Faixa Etária
+Unidade da Federação: Pará, Pernambuco
+Período:2010
+"Unidade da Federação";"Menor 1 ano";"1 a 4 anos";"5 a 9 anos";"10 a 14 anos";"15 a 19 anos";"20 a 29 anos";"30 a 39 anos";"40 a 49 anos";"50 a 59 anos";"60 a 69 anos";"70 a 79 anos";"80 anos e mais";"Idade ignorada";"Total"
+"15 Pará";2471;544;276;301;1098;2943;2533;2708;3465;4220;5023;5515;151;31248
+"26 Pernambuco";2207;350;178;324;1035;3225;3334;4529;6053;8433;10650;14351;77;54746
+"Total";4678;894;454;625;2133;6168;5867;7237;9518;12653;15673;19866;228;85994
+ Fonte: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade - SIM
+ Nota:
+ 
+ Em 2011, houve uma mudança no conteúdo da Declaração de Óbito, com maior detalhamento das informações coletadas. Para este ano, foram
+ utilizados simultaneamente os dois formulários. Para mais detalhes sobre as mudanças ocorridas e os seus efeitos, veja o documento
+ "Sistema de Informações sobre Mortalidade - SIM. Consolidação da base de dados de 2011".
+ No dia 13/06/2019, os arquivos do SIM referentes ao ano de notificação 2017 foram atualizados, com alteração das causas básicas de 2 registros e exclusão de 1 registro.
+ No dia 01/04/2020, os arquivos do SIM referentes ao ano de notificação 2019 foram atualizados, com alteração das causas básicas de 4 registros e exclusão de 1 registro.
+ 
