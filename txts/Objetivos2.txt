@@ -1,0 +1,13 @@
+tic -> dados femininos
+taxa de crescimento natural > total ou feminino? [total]
+
+parte 3:
+- Fazer projeção de 70 anos mantendo taxas constantes
+- Extrair dados para cada quinquênio
+- Verificar a estrutura etária de cada quinquênio; gerar gráficos e análise
+- 
+
+[objetivo é verificar ergodicidade]
+
+[ideia: cruzar com projeções oficiais (se sobrar tempo)]
+

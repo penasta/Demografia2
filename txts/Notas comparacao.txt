@@ -1,0 +1,7 @@
+Quanto a parte de comparar dois países:
+
+ - 2 paises com estrutura diferente:
+   - Escolher tábua de vida e um conjunto de fecundidade
+   - Comparar usando a função L da tábua de vida (Ou outra, mas preferencialmente a L)
+
+   
