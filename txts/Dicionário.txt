@@ -1,3 +1,4 @@
+nCx = distribuição da população por grupos de idade.
 nQx - Estimação das probabilidades de morte
 nPx - Probabilidade média das pessoas no grupo x a x+n sobreviver por mais n anos
 nLx - Tempo a ser vivido pelos sobreviventes da coorte na idade x, entre esta idade e o início do próximo grupo etário. É o n de pessoas-ano entre as idades x e x+n
