@@ -18,3 +18,36 @@ TIC - Taxa intrínseca de crescimento
 Ergodicidade: Afirma que no longo prazo a estrutura etária de uma população
 depende do comportamento da sua mortalidade e fecundidade (e eventualmente migração) e que
 a estrutura etária inicial será “esquecida”. 
+
+Livro: (cap9)
+
+nmx A Taxa Específica de Mortalidade da tábua de vida (ou da população estacionária) do
+intervalo etário de x a x+n anos exatos (ou x a x+n-1 anos completos).
+
+nMx A Taxa Específica de Mortalidade correspondente na população observada, geralmente
+próxima mas não exatamente igual a nmx.
+
+nqx A probabilidade de morte do intervalo etário de x a x+n-1 anos completos, ou seja, a
+probabilidade de que uma pessoa de x anos exatos morra antes de alcançar a idade de x+n
+anos exatos. A terminologia “taxas do tipo q” já foi introduzida no Capítulo 7.
+
+npx O complemento de nqx, ou seja npx = 1 – nqx, a probabilidade de sobrevivência do intervaloetário de x a x+n-1 anos completos.
+
+ℓx O número de sobreviventes de uma coorte de ℓ0 nascidos vivos depois de x anos
+
+ndx O número de óbitos esperado entre uma coorte de ℓ0 nascidos vivos entre as idades de x ex+n-1 anos completos.
+
+nLx O número de anos-pessoa vivido pela coorte de ℓ0 pessoas nascidas vivas e ainda vivas na idade de x anos no intervalo de x até x+n anos exatos. Se todo o mundo sobrevive dos xaté os x+n anos, este número será simplesmente n ℓx, mas como algumas pessoas morrem
+durante o intervalo, o número efetivo será menor: n ℓx+n + nax ndx, onde nax é:
+
+nax Um fator de separação (terminologia introduzida em (7.6)) que expressa o número médio
+de anos vividos entre as idades x e x+n por pessoas vivas em x, mas que morrem antes de
+x+n. Normalmente este número é aproximadamente n/2, mas pode se afastar deste valor
+se há variações fortes da intensidade da mortalidade ao longo do intervalo.
+
+nSx A razão de sobrevivência do intervalo etário (x,x+n) ou seja a proporção de pessoas com
+idades entre x e x+n anos exatos na população estacionária que sobreviverão até o próximo intervalo: nLx+n / nLx.
+
+Tx O número de anos-pessoa vivido pela coorte de ℓ0 pessoas nascidas vivas e ainda vivas na idade de x anos até a extinção completa da coorte, ou seja, até a morte do último sobrevivente.
+
+ex O número médio de anos vividos a partir da idade exata x. Em particular, e0 simboliza a esperança de vida (também chamada expectativa de vida) ao nascer.
