@@ -81,3 +81,26 @@ rm(SPA19)
 rm(SPA20)
 
 write_xlsx(SPA, "SIMPERNAMBUCO.xlsx")
+
+SIMPARA <- read_excel("Trabalho 2/Bancos/SIM/SIMPARA.xlsx")
+
+SIMPARA <- SIMPARA %>%
+  select(IDADE,SEXO,LINHAA)
+
+SIMPERNAMBUCO <- read_excel("Trabalho 2/Bancos/SIM/SIMPERNAMBUCO.xlsx")
+
+SIMPERNAMBUCO <- SIMPERNAMBUCO %>%
+  select(IDADE,SEXO,LINHAA)
+
+d <- d %>%
+  select(IDADE,SEXO,LINHAA)
+
+t <- t %>%
+  select(IDADE,SEXO,LINHAA)
+
+SIMPERNAMBUCO <- rbind(SIMPERNAMBUCO,d)
+
+SIMPARA <- rbind(SIMPARA,t)
+
+write_xlsx(SIMPERNAMBUCO, "SIMPERNAMBUCO.xlsx")
+write_xlsx(SIMPARA, "SIMPARA.xlsx")
