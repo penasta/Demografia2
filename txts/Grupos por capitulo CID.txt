@@ -1,0 +1,14 @@
+preveníveis:
+I(EXCETO B342),XV,XVI, IV[E10-E14;E64]
+
+não transmissíveis:
+II,?(PROVAVELMENTE IX),X[J32;J30-J31;J33-J34],XI,V,XIV,III,IV(EXCETO [E10-E14;E64]),XIII
+
+causas externas:
+XIX,XX
+
+COVID:
+B342
+
+OUTROS:
+resto.

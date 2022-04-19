@@ -7,21 +7,26 @@ if (!require(pacman)) {
 
 pacman::p_load(read.dbc,dplyr, stringr, lubridate, LexisPlotR, ggplot2, readxl, foreign,maptools,plotly)
 
-####################### Lendo os dados #######################
-DOPA <- read.csv("C:/Users/emill/OneDrive/Documentos/DOPA.csv", sep = ',')
-DOPE <- read.csv("C:/Users/emill/OneDrive/Documentos/DOPE.csv", sep = ',')
+library(readr)
 
-proj_PA_H <- readxl::read_xls("C:/Users/emill/OneDrive/Documentos/PROJECOES_2013_POPULACAO.xls",
+####################### Lendo os dados #######################
+# DOPA <- read.csv("C:/Users/emill/OneDrive/Documentos/DOPA.csv", sep = ',')
+# DOPE <- read.csv("C:/Users/emill/OneDrive/Documentos/DOPE.csv", sep = ',')
+
+proj_PA_H <- readxl::read_xls("Trabalho 2/Bancos/PROJECOES_2013_POPULACAO.xls",
                               range = c("U5:W25"),sheet = "PA")
 
-proj_PA_M <- readxl::read_xls("C:/Users/emill/OneDrive/Documentos/PROJECOES_2013_POPULACAO.xls",
+proj_PA_M <- readxl::read_xls("Trabalho 2/Bancos/PROJECOES_2013_POPULACAO.xls",
                               range = c("U28:W48"),sheet = "PA")
 
-proj_PE_H <- readxl::read_xls("C:/Users/emill/OneDrive/Documentos/PROJECOES_2013_POPULACAO.xls",
+proj_PE_H <- readxl::read_xls("Trabalho 2/Bancos/PROJECOES_2013_POPULACAO.xls",
                               range = c("U5:W25"),sheet = "PE")
 
-proj_PE_M <- readxl::read_xls("C:/Users/emill/OneDrive/Documentos/PROJECOES_2013_POPULACAO.xls",
+proj_PE_M <- readxl::read_xls("Trabalho 2/Bancos/PROJECOES_2013_POPULACAO.xls",
                               range = c("U28:W48"),sheet = "PE")
+
+DOPA <- read_csv("Trabalho 2/Bancos/SIM/DOPA.csv")
+DOPE <- read_csv("Trabalho 2/Bancos/SIM/DOPE.csv")
 
 
 # Categorizacao da idade
