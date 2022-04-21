@@ -51,6 +51,9 @@ O Segundo Trabalho tem como tema as Tábuas de vida de múltiplos decrementos, c
 5 - Agrupe as causas de morte em 5 grupos de interesse. Considerando esses grupos de causas de morte, por sexo e idade, construa Tábuas de Vida de Múltiplos Decrementos. Calcule probabilidades brutas e líquidas. Analise o impacto de cada grupo de causas,  analisando as esperanças de vida caso uma causa fosse eliminada.
 6 - Apresente suas conclusões sobre o estudo realizado, comparando as duas UFs, e comentando as limitações da análise realizada.
 
+Estados selecionados:
+- Pernambuco, Pará
+
 Fonte dos dados:
 
  https://www.ibge.gov.br/
