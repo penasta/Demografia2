@@ -9,7 +9,7 @@ library(tidyverse)
 library(maptools)
 
 
-SIM <- read.dbf("Bancos/DO21OPEN.dbf")
+SIM <- read.dbf("Trabalho 2/Bancos/DO21OPEN.dbf")
 
 SIM$CODMUNRES <- as.character(SIM$CODMUNRES)
 SIM$CODMUNRES <- as.numeric(SIM$CODMUNRES)
@@ -49,10 +49,10 @@ pacman::p_load(read.dbc,dplyr, stringr, lubridate, LexisPlotR, ggplot2, readxl, 
 # Selecionando variáveis
 
 DOPA <- DOPA %>%
-  select(DTNASC,IDADE,SEXO,RACACOR,ESTCIV,ESC,CAUSABAS,ANO)
+  select(DTOBITO,DTNASC,IDADE,SEXO,RACACOR,ESTCIV,ESC,CAUSABAS,ANO)
 
 DOPE <- DOPE %>%
-  select(DTNASC,IDADE,SEXO,RACACOR,ESTCIV,ESC,CAUSABAS,ANO)
+  select(DTOBITO,DTNASC,IDADE,SEXO,RACACOR,ESTCIV,ESC,CAUSABAS,ANO)
 
 # Funcao para codificar a variavel CAUSABAS por capitulo da CID10
 categ_cap_cid10 <- function(x) {
@@ -223,21 +223,21 @@ DOPE$IDADE <- sim_idade(DOPE$IDADE)
 DOPA21 <- DOPA
 DOPE21 <- DOPE
 
-write.csv(DOPA21, file = "DOPA21.csv", row.names = FALSE)
-write.csv(DOPE21, file = "DOPE21.csv", row.names = FALSE)
+write.csv(DOPA21, file = "DOPA21.csv",fileEncoding = "UTF-8", row.names = FALSE)
+write.csv(DOPE21, file = "DOPE21.csv",fileEncoding = "UTF-8", row.names = FALSE)
 
 rm(DOPA,DOPE,DOPA_copia,DOPE_copia,SIM,SIMPA,SIMPE)
 
 rm(DOPA21,DOPE21)
 
-DOPA <- read.csv("DOPA.csv")
-DOPE <- read.csv("DOPE.csv")
-DOPA21 <- read.csv("DOPA21.csv")
-DOPE21 <- read.csv("DOPE21.csv")
+DOPA <- read.csv("Trabalho 2/Bancos/DOPA.csv", encoding = "UTF-8")
+DOPE <- read.csv("Trabalho 2/Bancos/DOPE.csv", encoding = "UTF-8")
+DOPA21 <- read.csv("Trabalho 2/Bancos/DOPA21.csv", encoding = "UTF-8")
+DOPE21 <- read.csv("Trabalho 2/Bancos/DOPE21.csv", encoding = "UTF-8")
 
 
 DOPA <- full_join(DOPA,DOPA21)
 DOPE <- full_join(DOPE,DOPE21)
 
-write.csv(DOPA, file = "DOPA.csv", row.names = FALSE)
-write.csv(DOPE, file = "DOPE.csv", row.names = FALSE)
+write.csv(DOPA, file = "DOPA.csv",fileEncoding = "UTF-8", row.names = FALSE)
+write.csv(DOPE, file = "DOPE.csv",fileEncoding = "UTF-8", row.names = FALSE)
