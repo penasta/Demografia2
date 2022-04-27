@@ -1,4 +1,7 @@
 library(lubridate)
+
+# Carregar as planilhas DOPA.csv e DOPE.csv
+
 DOPA$DTOBITO2 <- NA
 DOPA$DTOBITO2 <- dmy(DOPA$DTOBITO)
 
